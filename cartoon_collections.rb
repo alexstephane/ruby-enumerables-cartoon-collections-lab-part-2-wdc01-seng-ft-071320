@@ -40,11 +40,12 @@ valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
     valid_calls.include?(planeteer_calls)
  
  end
+ end
 
-def find_the_cheese(cheese)# code an argument here
-  # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese.find do |cheese|
-    cheese_types.include?(cheese)
-  end
-end
+# def find_the_cheese(cheese)# code an argument here
+#   # the array below is here to help
+#   cheese_types = ["cheddar", "gouda", "camembert"]
+#   cheese.find do |cheese|
+#     cheese_types.include?(cheese)
+#   end
+# end
