@@ -23,7 +23,7 @@ def long_planeteer_calls(planeteer_calls)
   
     answer = false
   long_planteer_calls.each do |call|
-    if call.length > 4
+    if call.length > 3
       answer = true
     end
   end
